@@ -1,0 +1,7 @@
+# Example line chart visualization
+output$carbon_footprint_plot <- renderPlot({
+  # Generate plot based on user input data
+  ggplot(data = user_data, aes(x = date, y = carbon_footprint)) +
+    geom_line() +
+    labs(x = "Date", y = "Carbon Footprint")
+})
