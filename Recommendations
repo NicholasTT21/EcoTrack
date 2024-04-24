@@ -1,0 +1,8 @@
+# Example recommendation based on carbon footprint
+output$carbon_footprint_recommendation <- renderText({
+  if (carbon_footprint > threshold) {
+    "Consider reducing your carbon footprint by carpooling or using public transit."
+  } else {
+    "Congratulations! Your carbon footprint is within a sustainable range."
+  }
+})
