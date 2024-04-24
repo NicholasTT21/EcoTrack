@@ -1,0 +1,4 @@
+# Example input form for transportation habits
+textInput("commute_distance", "Average commute distance (miles):"),
+selectInput("commute_mode", "Primary commute mode:",
+            choices = c("Car", "Public transit", "Bicycle", "Walking"))
