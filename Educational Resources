@@ -1,0 +1,3 @@
+# Example links to educational resources
+tags$a("Learn more about sustainable transportation", href = "https://www.epa.gov/sustainable-transportation"),
+tags$a("Explore tips for energy conservation at home", href = "https://www.energy.gov/energysaver/saving-electricity-and-gas")
