@@ -1,0 +1,5 @@
+# Example user profile creation and progress tracking
+user_profile <- reactiveValues(
+  goals = list(carbon_reduction = 20, water_conservation = "reduce by 10%"),
+  achievements = list(carbon_reduction = 15, water_conservation = "reduced by 5%")
+)
